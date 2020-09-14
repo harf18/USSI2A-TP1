@@ -53,13 +53,13 @@ $ git checkout prenomNom
 	- IntelliJ détecte que c'est un projet Java
 	- Aucune bibliothèque n'est integtée au projet
 	- IntelliJ créé un modules USSI21-TP1
-	- Choisir JDK13, s'il n'est pas dans la liste, cliquer sur le <span style="color:green">**+**</span> et selectionner le dossier du JDK 13
+	- Choisir JDK14, s'il n'est pas dans la liste, cliquer sur le <span style="color:green">**+**</span> et selectionner le dossier du JDK 14
 	- Aucun Framework n'est detecté
-	- Aller dans File > Project Structure et Choisir 13 dans **Project language level**
+	- Aller dans File > Project Structure et Choisir 14 dans **Project language level**
 
 
 
-### Votre 1er programme Java 13 
+### Votre 1er programme Java 14
 
 - Dans le navigateur de projet, developper USSI2A-TP1 > src 
 - Double cliquer sur HelloWorld : dans la fenêtre principale d'IntelliJ, la classe HelloWorld s'ouvre, ajouter le contenu nécessaire pour créer un Hello World.
