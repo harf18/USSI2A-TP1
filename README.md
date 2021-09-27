@@ -5,6 +5,7 @@
 Se familiariser avec GIT / Github Classroom / Pull request
 
 ### Prérequis
+
 - Ouvrir Git Bash, aller dans le dossier de votre choix et créer un dossier USSI2A. Par exemple :  
 
 ```
@@ -13,11 +14,11 @@ $ cd Documents
 $ mkdir USSI2A
 $ cd USSI2A
 ```
-
+- Sur github, sur la page d'accueil du projet, cliquer sur le bouton vert "code" et copier le l'url ```https://github.com/Le-Cnam/tp1...```
 - Cloner le projet GITHUB sur votre poste :  
 
 ```
-$ git clone https://github.com/Le-Cnam/tp1-username.git  
+$ git clone <COLLER L'URL COPIEE CI DESSUS>  
 ```
 
 - Saisir vos identifiants github  
@@ -26,7 +27,7 @@ $ git clone https://github.com/Le-Cnam/tp1-username.git
 
 ```
 $ ls -ltr
-$ cd tp1-username
+$ cd tp1-XXXXXX (ou XXXXX = votre username)
 ```
 
 - Vous remarquez **(master)** en fin de ligne : vous êtes sur la branche master  
@@ -46,22 +47,18 @@ $ git checkout prenomNom
 
 - Ouvrez IntelliJ
 - Ouvrir le projet USSI2A-TP1 :
-	- Sur l'écran d'accueil d'IntelliJ, cliquer sur **Import Project**
-	- Selectionner le dossier du projet
-	- Selectionner **Create project from existing sources**
-	- Conserver les informations (*Nom, Location, Format*)
-	- IntelliJ détecte que c'est un projet Java
-	- Aucune bibliothèque n'est integtée au projet
-	- IntelliJ créé un modules USSI21-TP1
-	- Choisir JDK17, s'il n'est pas dans la liste, cliquer sur le <span style="color:green">**+**</span> et selectionner le dossier du JDK 17
-	- Aucun Framework n'est detecté
-	- Aller dans File > Project Structure et Choisir 17 dans **Project language level**
+	- Sur l'écran d'accueil d'IntelliJ, cliquer sur **New Project**
+	- Selectionner **Java** dans la liste de gauche et **17** dans **Project SDK** puis **Next**
+	- Ne rien cocher puis **Next**
+	- Cliquer sur les **...** de **Project location** puis selectionner le dossier du projet et cliquer sur **OK**
+	- Cliquer sur **Finish**
+	- Le projet s'ouvre
 
 
 
 ### Votre 1er programme Java 17
 
-- Dans le navigateur de projet, developper USSI2A-TP1 > src 
+- Dans le navigateur de projet a gauche, developper **tp1-XXXXXX > src** en cliquant sur la fleche devant src
 - Double cliquer sur HelloWorld : dans la fenêtre principale d'IntelliJ, la classe HelloWorld s'ouvre, ajouter le contenu nécessaire pour créer un Hello World.
 - Pour l'excuter, cliquer droit sur **main** et cliquer sur "Run HelloWorld.main"
 - Hello World doit s'écrire dans la fenêtre en bas d'IntelliJ
@@ -70,16 +67,16 @@ $ git checkout prenomNom
 
 ### Envoyez votre travail
 
-- Dans GIT bash, ajouter votre travail dans la "zone prêt à commiter"
+- Dans GIT bash, ajouter votre travail dans la "zone prêt à commiter" :
 
 ```
 $ git add .
 ```
 
-- Commitez votre travail (faire un commit = enregister votre code dans l'historique des modifications)
+- Commitez votre travail (faire un commit = enregister votre code dans l'historique des modifications) : 
 
 ```
-$ git commit -m "Mon travail pour ce TP1"
+$ git commit -m "<Un message de commit comprehensible et qui décrit bien votre travail>"
 ```
 
 - Envoyer votre branch nomPrenom sur le serveur
